@@ -10,33 +10,6 @@
       "searchable": 0
     },
     {
-      "key": "配置中心",
-      "name": "配置｜中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-      "key": "影视配置",
-      "name": "影视｜配置",
-      "type": 3,
-      "api": "csp_Wexconfig",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "jar": "https://gitee.com/PizazzXS/four-d/raw/master/wex.txt;md5;cae606af0c0d24a48ce5e0387c8c18cb"
-    },
-    {
       "key": "爱奇艺",
       "name": "爱奇艺｜视频",
       "type": 3,
@@ -84,30 +57,6 @@
       "type": 3,
       "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
       "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/BLSP.js"
-    },
-    {
-      "key": "Alllive",
-      "name": "聚合｜直播‍",
-      "type": 3,
-      "api": "csp_Wexalllive",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "https://gitee.com/PizazzXS/four-d/raw/master/wex.txt;md5;cae606af0c0d24a48ce5e0387c8c18cb"
-    },
-    {
-      "key": "push_agent",
-      "name": "手机｜推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "danmu": true
-      }
     }
   ],
   "parses": [
@@ -147,7 +96,10 @@
     {
       "name": "Google",
       "url": "https://dns.google/dns-query",
-      "ips": ["8.8.4.4", "8.8.8.8"]
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
     },
     {
       "name": "Cloudflare",
@@ -162,7 +114,9 @@
     {
       "name": "腾讯",
       "url": "https://doh.pub/dns-query",
-      "ips": ["119.29.29.29"]
+      "ips": [
+        "119.29.29.29"
+      ]
     }
   ],
   "lives": [
@@ -376,5 +330,7 @@
       ]
     }
   ],
-  "ads": ["static-mozai.4gtv.tv"]
+  "ads": [
+    "static-mozai.4gtv.tv"
+  ]
 }
